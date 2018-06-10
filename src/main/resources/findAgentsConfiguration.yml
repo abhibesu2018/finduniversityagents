@@ -1,0 +1,10 @@
+webURLInformations:
+   - searchString: Global_agents
+     URL:  https://sydney.edu.au/study/admissions/apply/global-agents.html
+     country: Australia
+   - searchString: Macquarie_in_your_country
+     URL: https://www.mq.edu.au/study/international-students/macquarie-in-your-country 
+     country: Australia
+   - searchString: Overseas_Representatives
+     URL: https://futurestudents.unimelb.edu.au/info/overseas-representatives  
+     country: Australia
