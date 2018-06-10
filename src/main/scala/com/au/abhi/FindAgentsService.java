@@ -32,7 +32,7 @@ public class FindAgentsService {
 					// For each linked page find out the required information
 					for (Element page : linksOnPage) {
 						if (page.attr("href").contains(URL.replace(".html", ""))) {
-							
+							System.out.println(page);
 							getInformationFromURL(page.attr("abs:href"),webURLInformation.getCountry());
 						}
 					}

@@ -7,12 +7,10 @@ import org.yaml.snakeyaml.Yaml;
 
 
 public class FindAgents{
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws IOException  {
 		//Load the yaml configuration files
 		WebInformations webInformations =  loadFromFile("/findAgentsConfiguration.yml");
 		
-		
-//		FindAgentsService findAgentsService = new FindAgentsService();
 		
 		for(WebURLInformation webURLInformation:webInformations.getWebURLInformations()) {
 			System.err.println("Page URL: "+webURLInformation.getURL());
